@@ -1,0 +1,14 @@
+target/
+durable.db
+*.log
+*.class
+.idea/
+*.iml
+.DS_Store
+crash_output.txt
+resume_output.txt
+db.txt
+db_filtered.txt
+db_final.txt
+db_short.txt
+hs_err_pid*

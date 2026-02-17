@@ -1,0 +1,22 @@
+# Prompts Used
+
+## Initial Planning
+- "Create a task list for building a Durable Execution Engine in Java."
+- "Design a simple persistence layer schema for workflow steps using SQLite."
+
+## Implementation
+- "Generate a Java class `DurableContext` that executes a Callable and saves result to SQLite."
+- "How to use Jackson to serialize generic objects in Java?"
+- "Implement a thread-safe SQLite helper class in Java."
+- "Create an example Java workflow using CompletableFuture for parallel steps."
+
+## Debugging & Refinement
+- "How to handle SQLite busy exceptions in Java JDBC?" (Handled via synchronized methods)
+- "Best way to simulate a process crash in Java." (System.exit)
+
+## Bonus Challenge: Automatic Sequence ID
+- "How to get the caller's class and method name in Java using stack trace?"
+- "Implement a method to generate a unique step ID based on stack trace."
+- "Create an overloaded method for `step` that assumes the ID."
+- "Create a Java class `AutoIdWorkflow` to test automatic ID generation."
+- "Verify that the automatic ID generation is deterministic across runs."
